@@ -1,0 +1,2 @@
+# wordtest
+GoogleAppsScriptとスプレッドシートを用いて作成した単語テストをしてくれるLINEbot。
