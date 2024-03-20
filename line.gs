@@ -1,7 +1,7 @@
 //LINEとやりとりするための関数を集めたファイル
 
 //LINEのアクセストークン
-var channel_access_token = "hDKxwHkULAIodv6NtR1p5dxLq1OU1yDl4M+w865nCCIktCUAccdhWBYBjyyvWwE9rOJudS8QyTwd8acp+/7PAPLf54/QCWnIS0kTK2qqe92oce4Lbyvt3YIJvZISpFek1bVjpaaKC/2tjXxNZXFKPAdB04t89/1O/w1cDnyilFU=";
+var channel_access_token = ACCESS_TOKEN;//env.gsより
 var headers = {
    "Content-Type": "application/json; charset=UTF-8",
    "Authorization": "Bearer " + channel_access_token

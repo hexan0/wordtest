@@ -16,7 +16,7 @@ function weeklyAction() {
                        Lastweek:"N"
                     };
   var sheetOpen = 
-    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1f7BdrOFHsoROKWYJSxn-DysBNn75ogvHXqfV5uCKc9U/');
+    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/'+SS); //SSはenv.gsより
   var sheetUserData = sheetOpen.getSheetByName('UserData');
   var max_r = sheetUserData.getLastRow();
   for(var r=2;r<=max_r;r++){

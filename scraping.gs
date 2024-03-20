@@ -13,7 +13,7 @@ function onOpen() {
 
 function weblio_scraping(){
   /*var sheetOpen = 
-    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1f7BdrOFHsoROKWYJSxn-DysBNn75ogvHXqfV5uCKc9U/');
+    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/'+SS); //SSはenv.gsより
   var sheet = sheetOpen.getSheetByName("weblio");
   var max_r = sheet.getLastRow() - 1;
   var r;

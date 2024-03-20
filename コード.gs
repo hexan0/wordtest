@@ -15,7 +15,7 @@ function doGet(e) {
 function doPost(e) {
   var webhookData = JSON.parse(e.postData.contents).events[0];
   var sheetOpen = 
-    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/1f7BdrOFHsoROKWYJSxn-DysBNn75ogvHXqfV5uCKc9U/');
+    SpreadsheetApp.openByUrl('https://docs.google.com/spreadsheets/d/'+SS); //SSはenv.gsより
   var sheetServerData = sheetOpen.getSheetByName('ServerData');
   var replyText=sheetServerData.getRange("B3").getValue();
   if(sheetServerData.getRange("B2").getValue()){
